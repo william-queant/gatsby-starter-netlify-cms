@@ -10,10 +10,10 @@
     "prettier/prettier": "error",
     "comma-dangle": ["error", "never"],
     "no-unused-vars": "off",
-    "@typescript-eslint/no-unused-vars": "off",
     "no-redeclare": "off",
     "no-restricted-globals": "off",
     "@typescript-eslint/no-redeclare": "off",
+    "@typescript-eslint/no-unused-vars": "off",
     "@typescript-eslint/no-use-before-define": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "off",
@@ -52,6 +52,7 @@
   "globals": {
     "shallow": true,
     "render": true,
-    "mount": true
+    "mount": true,
+    "__PATH_PREFIX__": true
   }
 }

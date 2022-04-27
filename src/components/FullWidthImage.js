@@ -8,7 +8,7 @@ export default function FullWidthImage(props) {
     img,
     title,
     subheading,
-    imgPosition = "top left",
+    imgPosition = "top left"
   } = props;
 
   return (
@@ -17,7 +17,7 @@ export default function FullWidthImage(props) {
         className="margin-top-0"
         style={{
           display: "grid",
-          alignItems: "center",
+          alignItems: "center"
         }}
       >
         {img?.url ? (
@@ -29,7 +29,7 @@ export default function FullWidthImage(props) {
               gridArea: "1/1",
               // You can set a maximum height for the image, if you wish.
               height: height,
-              width: "100%",
+              width: "100%"
             }}
             // You can optionally force an aspect ratio for the generated image
             aspectratio={3 / 1}
@@ -45,7 +45,7 @@ export default function FullWidthImage(props) {
             style={{
               gridArea: "1/1",
               // You can set a maximum height for the image, if you wish.
-              maxHeight: height,
+              maxHeight: height
             }}
             layout="fullWidth"
             // You can optionally force an aspect ratio for the generated image
@@ -63,7 +63,7 @@ export default function FullWidthImage(props) {
               position: "relative",
               // This centers the other elements inside the hero component
               placeItems: "center",
-              display: "grid",
+              display: "grid"
             }}
           >
             {/* Any content here will be centered in the component */}
@@ -76,7 +76,7 @@ export default function FullWidthImage(props) {
                   backgroundColor: "rgb(255, 68, 0)",
                   color: "white",
                   lineHeight: "1",
-                  padding: "0.25em",
+                  padding: "0.25em"
                 }}
               >
                 {title}
@@ -92,7 +92,7 @@ export default function FullWidthImage(props) {
                   color: "white",
                   lineHeight: "1",
                   padding: "0.25rem",
-                  marginTop: "0.5rem",
+                  marginTop: "0.5rem"
                 }}
               >
                 {subheading}
@@ -109,5 +109,5 @@ FullWidthImage.propTypes = {
   img: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   height: PropTypes.number,
-  subheading: PropTypes.string,
+  subheading: PropTypes.string
 };

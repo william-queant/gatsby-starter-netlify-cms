@@ -1,0 +1,57 @@
+{
+  "extends": [
+    "react-app",
+    "plugin:prettier/recommended",
+    "plugin:flowtype/recommended"
+  ],
+  "parser": "@babel/eslint-parser",
+  "plugins": ["react-hooks", "prettier", "flowtype"],
+  "rules": {
+    "prettier/prettier": "error",
+    "comma-dangle": ["error", "never"],
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "no-redeclare": "off",
+    "no-restricted-globals": "off",
+    "@typescript-eslint/no-redeclare": "off",
+    "@typescript-eslint/no-use-before-define": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "off",
+    "flowtype/array-style-complex-type": [2, "shorthand"],
+    "flowtype/array-style-simple-type": [2, "shorthand"],
+    "flowtype/arrow-parens": [2, "as-needed"],
+    "flowtype/boolean-style": [2, "boolean"],
+    "flowtype/delimiter-dangle": [2, "never"],
+    "flowtype/generic-spacing": [2, "never"],
+    "flowtype/no-duplicate-type-union-intersection-members": [
+      2,
+      {
+        "checkIntersections": true,
+        "checkUnions": true
+      }
+    ],
+    "flowtype/no-types-missing-file-annotation": 0,
+    "flowtype/object-type-curly-spacing": [2, "never"],
+    "flowtype/object-type-delimiter": [2, "comma"],
+    "flowtype/quotes": [2, "double"],
+    "flowtype/semi": [2, "never"],
+    "flowtype/space-after-type-colon": [
+      2,
+      "always",
+      { "allowLineBreak": true }
+    ],
+    "flowtype/space-before-generic-bracket": [2, "never"],
+    "flowtype/space-before-type-colon": [2, "never"],
+    "flowtype/union-intersection-spacing": [2, "always"]
+  },
+  "settings": {
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": false
+    }
+  },
+  "globals": {
+    "shallow": true,
+    "render": true,
+    "mount": true
+  }
+}

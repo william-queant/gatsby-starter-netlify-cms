@@ -4,7 +4,7 @@ import { v4 } from "uuid";
 
 const Testimonials = ({ testimonials }) => (
   <div>
-    {testimonials.map((testimonial) => (
+    {testimonials.map(testimonial => (
       <article key={v4()} className="message">
         <div className="message-body">
           {testimonial.quote}
@@ -20,9 +20,9 @@ Testimonials.propTypes = {
   testimonials: PropTypes.arrayOf(
     PropTypes.shape({
       quote: PropTypes.string,
-      author: PropTypes.string,
+      author: PropTypes.string
     })
-  ),
+  )
 };
 
 export default Testimonials;

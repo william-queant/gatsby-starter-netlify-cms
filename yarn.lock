@@ -70,7 +70,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.1.0, @babel/core@npm:^7.11.1, @babel/core@npm:^7.12.3, @babel/core@npm:^7.15.5, @babel/core@npm:^7.16.0, @babel/core@npm:^7.17.7, @babel/core@npm:^7.7.2, @babel/core@npm:^7.8.0":
+"@babel/core@npm:^7.1.0, @babel/core@npm:^7.11.1, @babel/core@npm:^7.12.3, @babel/core@npm:^7.15.5, @babel/core@npm:^7.16.0, @babel/core@npm:^7.17.9, @babel/core@npm:^7.7.2, @babel/core@npm:^7.8.0":
   version: 7.17.9
   resolution: "@babel/core@npm:7.17.9"
   dependencies:
@@ -1467,7 +1467,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.10.0, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.0, @babel/runtime@npm:^7.12.1, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.14.8, @babel/runtime@npm:^7.15.4, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.2.0, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2":
+"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.10.0, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.0, @babel/runtime@npm:^7.12.1, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.15.4, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.16.7, @babel/runtime@npm:^7.2.0, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2":
   version: 7.17.9
   resolution: "@babel/runtime@npm:7.17.9"
   dependencies:
@@ -8198,7 +8198,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bulma@npm:^0.9.0":
+"bulma@npm:^0.9.3":
   version: 0.9.3
   resolution: "bulma@npm:0.9.3"
   checksum: 98e1c2794b70c6339b41afc929bec6e22eae5b2751dc5fb0d9b7195d1c799ba4129a6fda1097e966db492f65fc4bed719da2498356c1ea6a9972f23ad3025d5c
@@ -8601,7 +8601,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cheerio@npm:^1.0.0-rc.10, cheerio@npm:^1.0.0-rc.3":
+"cheerio@npm:1.0.0-rc.2":
+  version: 1.0.0-rc.2
+  resolution: "cheerio@npm:1.0.0-rc.2"
+  dependencies:
+    css-select: ~1.2.0
+    dom-serializer: ~0.1.0
+    entities: ~1.1.1
+    htmlparser2: ^3.9.1
+    lodash: ^4.15.0
+    parse5: ^3.0.1
+  checksum: f4eaa93f405a9821daaea067459444d5d5d478b23c475a274c2ca434581dce4930ec779a231b5919ce1f80f44deda8b64233f0eabade6b39f9a887070ab7034e
+  languageName: node
+  linkType: hard
+
+"cheerio@npm:^1.0.0-rc.10":
   version: 1.0.0-rc.10
   resolution: "cheerio@npm:1.0.0-rc.10"
   dependencies:
@@ -9794,6 +9808,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"css-select@npm:~1.2.0":
+  version: 1.2.0
+  resolution: "css-select@npm:1.2.0"
+  dependencies:
+    boolbase: ~1.0.0
+    css-what: 2.1
+    domutils: 1.5.1
+    nth-check: ~1.0.1
+  checksum: 607cca60d2f5c56701fe5f800bbe668b114395c503d4e4808edbbbe70b8be3c96a6407428dc0227fcbdf335b20468e6a9e7fd689185edfb57d402e1e4837c9b7
+  languageName: node
+  linkType: hard
+
 "css-selector-parser@npm:^1.0.0, css-selector-parser@npm:^1.1.0":
   version: 1.4.1
   resolution: "css-selector-parser@npm:1.4.1"
@@ -9818,6 +9844,13 @@ __metadata:
     mdn-data: 2.0.14
     source-map: ^0.6.1
   checksum: 79f9b81803991b6977b7fcb1588799270438274d89066ce08f117f5cdb5e20019b446d766c61506dd772c839df84caa16042d6076f20c97187f5abe3b50e7d1f
+  languageName: node
+  linkType: hard
+
+"css-what@npm:2.1":
+  version: 2.1.3
+  resolution: "css-what@npm:2.1.3"
+  checksum: a52d56c591a7e1c37506d0d8c4fdef72537fb8eb4cb68711485997a88d76b5a3342b73a7c79176268f95b428596c447ad7fa3488224a6b8b532e2f1f2ee8545c
   languageName: node
   linkType: hard
 
@@ -10234,7 +10267,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"deep-map@npm:^1.5.0":
+"deep-map@npm:1.5.0":
   version: 1.5.0
   resolution: "deep-map@npm:1.5.0"
   dependencies:
@@ -10763,6 +10796,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dom-serializer@npm:~0.1.0":
+  version: 0.1.1
+  resolution: "dom-serializer@npm:0.1.1"
+  dependencies:
+    domelementtype: ^1.3.0
+    entities: ^1.1.1
+  checksum: 4f6a3eff802273741931cfd3c800fab4e683236eed10628d6605f52538a6bc0ce4770f3ca2ad68a27412c103ae9b6cdaed3c0a8e20d2704192bde497bc875215
+  languageName: node
+  linkType: hard
+
 "dom-walk@npm:^0.1.0":
   version: 0.1.2
   resolution: "dom-walk@npm:0.1.2"
@@ -10770,7 +10813,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"domelementtype@npm:1":
+"domelementtype@npm:1, domelementtype@npm:^1.3.0, domelementtype@npm:^1.3.1":
   version: 1.3.1
   resolution: "domelementtype@npm:1.3.1"
   checksum: 7893da40218ae2106ec6ffc146b17f203487a52f5228b032ea7aa470e41dfe03e1bd762d0ee0139e792195efda765434b04b43cddcf63207b098f6ae44b36ad6
@@ -10790,6 +10833,15 @@ __metadata:
   dependencies:
     webidl-conversions: ^5.0.0
   checksum: d638e9cb05c52999f1b2eb87c374b03311ea5b1d69c2f875bc92da73e17db60c12142b45c950228642ff7f845c536b65305483350d080df59003a653da80b691
+  languageName: node
+  linkType: hard
+
+"domhandler@npm:^2.3.0":
+  version: 2.4.2
+  resolution: "domhandler@npm:2.4.2"
+  dependencies:
+    domelementtype: 1
+  checksum: 49bd70c9c784f845cd047e1dfb3611bd10891c05719acfc93f01fc726a419ed09fbe0b69f9064392d556a63fffc5a02010856cedae9368f4817146d95a97011f
   languageName: node
   linkType: hard
 
@@ -10818,7 +10870,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"domutils@npm:^1.7.0":
+"domutils@npm:1.5.1":
+  version: 1.5.1
+  resolution: "domutils@npm:1.5.1"
+  dependencies:
+    dom-serializer: 0
+    domelementtype: 1
+  checksum: 800d1f9d1c2e637267dae078ff6e24461e6be1baeb52fa70f2e7e7520816c032a925997cd15d822de53ef9896abb1f35e5c439d301500a9cd6b46a395f6f6ca0
+  languageName: node
+  linkType: hard
+
+"domutils@npm:^1.5.1, domutils@npm:^1.7.0":
   version: 1.7.0
   resolution: "domutils@npm:1.7.0"
   dependencies:
@@ -11134,6 +11196,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"entities@npm:^1.1.1, entities@npm:~1.1.1":
+  version: 1.1.2
+  resolution: "entities@npm:1.1.2"
+  checksum: d537b02799bdd4784ffd714d000597ed168727bddf4885da887c5a491d735739029a00794f1998abbf35f3f6aeda32ef5c15010dca1817d401903a501b6d3e05
+  languageName: node
+  linkType: hard
+
 "entities@npm:^2.0.0":
   version: 2.2.0
   resolution: "entities@npm:2.2.0"
@@ -11421,7 +11490,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-react-app@npm:^7.0.0":
+"eslint-config-react-app@npm:^7.0.1":
   version: 7.0.1
   resolution: "eslint-config-react-app@npm:7.0.1"
   dependencies:
@@ -11505,7 +11574,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:^2.25.3, eslint-plugin-import@npm:^2.25.4":
+"eslint-plugin-import@npm:^2.25.3, eslint-plugin-import@npm:^2.25.4, eslint-plugin-import@npm:^2.26.0":
   version: 2.26.0
   resolution: "eslint-plugin-import@npm:2.26.0"
   dependencies:
@@ -11582,7 +11651,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-hooks@npm:^4.3.0, eslint-plugin-react-hooks@npm:^4.4.0":
+"eslint-plugin-react-hooks@npm:^4.3.0, eslint-plugin-react-hooks@npm:^4.4.0, eslint-plugin-react-hooks@npm:^4.5.0":
   version: 4.5.0
   resolution: "eslint-plugin-react-hooks@npm:4.5.0"
   peerDependencies:
@@ -13044,7 +13113,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-core-utils@npm:^3.13.0, gatsby-core-utils@npm:^3.8.2":
+"gatsby-core-utils@npm:^3.13.0, gatsby-core-utils@npm:^3.5.2, gatsby-core-utils@npm:^3.8.2":
   version: 3.13.0
   resolution: "gatsby-core-utils@npm:3.13.0"
   dependencies:
@@ -13158,7 +13227,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-image@npm:^2.0.0":
+"gatsby-plugin-image@npm:^2.13.0":
   version: 2.13.0
   resolution: "gatsby-plugin-image@npm:2.13.0"
   dependencies:
@@ -13186,7 +13255,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-netlify-cms@npm:^6.0.0":
+"gatsby-plugin-netlify-cms@npm:^6.13.0":
   version: 6.13.0
   resolution: "gatsby-plugin-netlify-cms@npm:6.13.0"
   dependencies:
@@ -13209,18 +13278,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-netlify@npm:^3.14.0":
-  version: 3.14.0
-  resolution: "gatsby-plugin-netlify@npm:3.14.0"
+"gatsby-plugin-netlify@npm:^4.3.0":
+  version: 4.3.0
+  resolution: "gatsby-plugin-netlify@npm:4.3.0"
   dependencies:
-    "@babel/runtime": ^7.14.8
+    "@babel/runtime": ^7.16.7
     fs-extra: ^10.0.0
+    gatsby-core-utils: ^3.5.2
     kebab-hash: ^0.1.2
     lodash: ^4.17.21
     webpack-assets-manifest: ^5.0.6
   peerDependencies:
-    gatsby: ^3.0.0
-  checksum: 2fbdfc8809a44af2096a3ec32e08dede8c445d38a14502b4bb6564d8a036a8f74d6d19aeb66f792176450830f1164a83f27486df0f210d1bde590baa4eecaa55
+    gatsby: ^4.0.0
+  checksum: 84b33cdbb5aa40d98606d6e31dd29b686bc131da054d5667a842f144215626059db793ede5c893cde8b2faa7b0b86b50b3ff5c9c8c4ed467414d7bbe705806a3
   languageName: node
   linkType: hard
 
@@ -13245,7 +13315,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-purgecss@npm:^6.0.0":
+"gatsby-plugin-purgecss@npm:^6.1.2":
   version: 6.1.2
   resolution: "gatsby-plugin-purgecss@npm:6.1.2"
   dependencies:
@@ -13259,7 +13329,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-react-helmet@npm:^5.0.0":
+"gatsby-plugin-react-helmet@npm:^5.13.0":
   version: 5.13.0
   resolution: "gatsby-plugin-react-helmet@npm:5.13.0"
   dependencies:
@@ -13271,7 +13341,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-sass@npm:^5.0.0":
+"gatsby-plugin-sass@npm:^5.13.0":
   version: 5.13.0
   resolution: "gatsby-plugin-sass@npm:5.13.0"
   dependencies:
@@ -13285,7 +13355,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-sharp@npm:^4.0.0":
+"gatsby-plugin-sharp@npm:^4.13.0":
   version: 4.13.0
   resolution: "gatsby-plugin-sharp@npm:4.13.0"
   dependencies:
@@ -13366,7 +13436,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-remark-copy-linked-files@npm:^5.0.0":
+"gatsby-remark-copy-linked-files@npm:^5.13.0":
   version: 5.13.0
   resolution: "gatsby-remark-copy-linked-files@npm:5.13.0"
   dependencies:
@@ -13384,7 +13454,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-remark-images@npm:^6.0.0":
+"gatsby-remark-images@npm:^6.13.0":
   version: 6.13.0
   resolution: "gatsby-remark-images@npm:6.13.0"
   dependencies:
@@ -13406,18 +13476,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-remark-relative-images@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "gatsby-remark-relative-images@npm:0.3.0"
+"gatsby-remark-relative-images-v2@npm:^0.1.5":
+  version: 0.1.5
+  resolution: "gatsby-remark-relative-images-v2@npm:0.1.5"
   dependencies:
     babel-polyfill: ^6.26.0
-    cheerio: ^1.0.0-rc.3
-    deep-map: ^1.5.0
-    is-relative-url: ^2.0.0
-    lodash: ^4.17.15
-    slash: ^2.0.0
-    unist-util-select: ^1.5.0
-  checksum: 0c63a996892bbf4aae12297eeced63fb2811eccaf69af0f603d21671a3089b477e2c1763fc5e8513aae877bc26de7246a6360c020c9b8cc4780790c0c4fc8cf1
+    cheerio: 1.0.0-rc.2
+    deep-map: 1.5.0
+    is-relative-url: 2.0.0
+    lodash: 4.17.5
+    slash: 2.0.0
+    unist-util-select: 1.5.0
+  checksum: 2e2107fbe8cd83107af905e944ab9cf193d092aa6f1c7602027b9eb1c81c7b989cac65392db0510393e4a532e007b9a8b01b1ed78ea0a1640a624c0dc186258c
   languageName: node
   linkType: hard
 
@@ -13431,7 +13501,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-source-filesystem@npm:^4.0.0":
+"gatsby-source-filesystem@npm:^4.13.0":
   version: 4.13.0
   resolution: "gatsby-source-filesystem@npm:4.13.0"
   dependencies:
@@ -13457,49 +13527,49 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "gatsby-starter-netlify-cms@workspace:."
   dependencies:
-    "@babel/core": ^7.17.7
+    "@babel/core": ^7.17.9
     "@babel/eslint-parser": ^7.17.0
     babel-preset-react: ^6.24.1
-    bulma: ^0.9.0
+    bulma: ^0.9.3
     eslint: ^8.14.0
     eslint-config-prettier: ^8.5.0
-    eslint-config-react-app: ^7.0.0
+    eslint-config-react-app: ^7.0.1
     eslint-plugin-flowtype: ^8.0.3
-    eslint-plugin-import: ^2.25.4
+    eslint-plugin-import: ^2.26.0
     eslint-plugin-prettier: ^4.0.0
-    eslint-plugin-react-hooks: ^4.3.0
-    gatsby: ^4.0.0
+    eslint-plugin-react-hooks: ^4.5.0
+    gatsby: ^4.13.0
     gatsby-cli: ^4.13.0
     gatsby-plugin-eslint: ^4.0.2
-    gatsby-plugin-image: ^2.0.0
-    gatsby-plugin-netlify: ^3.14.0
-    gatsby-plugin-netlify-cms: ^6.0.0
-    gatsby-plugin-purgecss: ^6.0.0
-    gatsby-plugin-react-helmet: ^5.0.0
-    gatsby-plugin-sass: ^5.0.0
-    gatsby-plugin-sharp: ^4.0.0
-    gatsby-remark-copy-linked-files: ^5.0.0
-    gatsby-remark-images: ^6.0.0
-    gatsby-remark-relative-images: ^0.3.0
-    gatsby-source-filesystem: ^4.0.0
-    gatsby-transformer-remark: ^5.0.0
-    gatsby-transformer-sharp: ^4.0.0
+    gatsby-plugin-image: ^2.13.0
+    gatsby-plugin-netlify: ^4.3.0
+    gatsby-plugin-netlify-cms: ^6.13.0
+    gatsby-plugin-purgecss: ^6.1.2
+    gatsby-plugin-react-helmet: ^5.13.0
+    gatsby-plugin-sass: ^5.13.0
+    gatsby-plugin-sharp: ^4.13.0
+    gatsby-remark-copy-linked-files: ^5.13.0
+    gatsby-remark-images: ^6.13.0
+    gatsby-remark-relative-images-v2: ^0.1.5
+    gatsby-source-filesystem: ^4.13.0
+    gatsby-transformer-remark: ^5.13.0
+    gatsby-transformer-sharp: ^4.13.0
     husky: ^7.0.4
-    lodash: ^4.17.15
-    lodash-webpack-plugin: ^0.11.4
-    netlify-cli: ^10.0.0
-    netlify-cms-app: ^2.15.65
+    lodash: ^4.17.21
+    lodash-webpack-plugin: ^0.11.6
+    netlify-cli: ^10.1.0
+    netlify-cms-app: ^2.15.72
     netlify-cms-media-library-cloudinary: ^1.3.10
     netlify-cms-media-library-uploadcare: ^0.5.10
-    prettier: ^2.6.0
-    prop-types: ^15.6.0
-    react: ^17.0.0
+    prettier: ^2.6.2
+    prop-types: ^15.8.1
+    react: ^17.0.2
     react-beautiful-dnd: ^13.1.0
-    react-dom: ^17.0.0
-    react-helmet: ^6.0.0
-    react-scripts: 5.0.0
-    sass: ^1.43.2
-    uuid: ^8.0.0
+    react-dom: ^17.0.2
+    react-helmet: ^6.1.0
+    react-scripts: 5.0.1
+    sass: ^1.51.0
+    uuid: ^8.3.2
   languageName: unknown
   linkType: soft
 
@@ -13524,7 +13594,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-transformer-remark@npm:^5.0.0":
+"gatsby-transformer-remark@npm:^5.13.0":
   version: 5.13.0
   resolution: "gatsby-transformer-remark@npm:5.13.0"
   dependencies:
@@ -13556,7 +13626,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-transformer-sharp@npm:^4.0.0":
+"gatsby-transformer-sharp@npm:^4.13.0":
   version: 4.13.0
   resolution: "gatsby-transformer-sharp@npm:4.13.0"
   dependencies:
@@ -13585,7 +13655,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby@npm:^4.0.0":
+"gatsby@npm:^4.13.0":
   version: 4.13.0
   resolution: "gatsby@npm:4.13.0"
   dependencies:
@@ -15028,6 +15098,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"htmlparser2@npm:^3.9.1":
+  version: 3.10.1
+  resolution: "htmlparser2@npm:3.10.1"
+  dependencies:
+    domelementtype: ^1.3.1
+    domhandler: ^2.3.0
+    domutils: ^1.5.1
+    entities: ^1.1.1
+    inherits: ^2.0.1
+    readable-stream: ^3.1.1
+  checksum: 6875f7dd875aa10be17d9b130e3738cd8ed4010b1f2edaf4442c82dfafe9d9336b155870dcc39f38843cbf7fef5e4fcfdf0c4c1fd4db3a1b91a1e0ee8f6c3475
+  languageName: node
+  linkType: hard
+
 "htmlparser2@npm:^4.1.0":
   version: 4.1.0
   resolution: "htmlparser2@npm:4.1.0"
@@ -16154,7 +16238,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-relative-url@npm:^2.0.0":
+"is-relative-url@npm:2.0.0":
   version: 2.0.0
   resolution: "is-relative-url@npm:2.0.0"
   dependencies:
@@ -17950,7 +18034,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash-webpack-plugin@npm:^0.11.4":
+"lodash-webpack-plugin@npm:^0.11.6":
   version: 0.11.6
   resolution: "lodash-webpack-plugin@npm:0.11.6"
   dependencies:
@@ -18178,10 +18262,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash@npm:4.17.21, lodash@npm:^4.0.1, lodash@npm:^4.1.1, lodash@npm:^4.17.10, lodash@npm:^4.17.11, lodash@npm:^4.17.12, lodash@npm:^4.17.14, lodash@npm:^4.17.15, lodash@npm:^4.17.19, lodash@npm:^4.17.20, lodash@npm:^4.17.21, lodash@npm:^4.17.4, lodash@npm:^4.7.0":
+"lodash@npm:4.17.21, lodash@npm:^4.0.1, lodash@npm:^4.1.1, lodash@npm:^4.15.0, lodash@npm:^4.17.10, lodash@npm:^4.17.11, lodash@npm:^4.17.12, lodash@npm:^4.17.14, lodash@npm:^4.17.15, lodash@npm:^4.17.19, lodash@npm:^4.17.20, lodash@npm:^4.17.21, lodash@npm:^4.17.4, lodash@npm:^4.7.0":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: eb835a2e51d381e561e508ce932ea50a8e5a68f4ebdd771ea240d3048244a8d13658acbd502cd4829768c56f2e16bdd4340b9ea141297d472517b83868e677f7
+  languageName: node
+  linkType: hard
+
+"lodash@npm:4.17.5":
+  version: 4.17.5
+  resolution: "lodash@npm:4.17.5"
+  checksum: 9ae12b708f68c54f2701daae072c5e3f648ed7cbe78b9308ce12209cd41053de9856d59df11464d8a3f35c3828a8d9add11051e3efc8bb75672271bb7c9da393
   languageName: node
   linkType: hard
 
@@ -19655,9 +19746,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"netlify-cli@npm:^10.0.0":
-  version: 10.0.0
-  resolution: "netlify-cli@npm:10.0.0"
+"netlify-cli@npm:^10.1.0":
+  version: 10.1.0
+  resolution: "netlify-cli@npm:10.1.0"
   dependencies:
     "@netlify/build": ^27.0.1
     "@netlify/config": ^18.0.0
@@ -19772,11 +19863,11 @@ __metadata:
   bin:
     netlify: bin/run
     ntl: bin/run
-  checksum: ae6e10661eb91969bf404b00b603704504b11d1c869bcb603a3f783d8b72d44934d7be311bfe21e8a1175ad43fc2c87f145c547bec1198224fdaccb60a8f5a91
+  checksum: 860233879a7821b96bd31ec54e2fe3d2efa85ed010b2234323f4adb47b9416fa11347f1f71b043f70472841c4cdce6bec1158b9d38af3ec1b2cb9e4b0d46a629
   languageName: node
   linkType: hard
 
-"netlify-cms-app@npm:^2.15.65":
+"netlify-cms-app@npm:^2.15.72":
   version: 2.15.72
   resolution: "netlify-cms-app@npm:2.15.72"
   dependencies:
@@ -20916,7 +21007,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nth-check@npm:^1.0.1, nth-check@npm:^1.0.2":
+"nth-check@npm:^1.0.1, nth-check@npm:^1.0.2, nth-check@npm:~1.0.1":
   version: 1.0.2
   resolution: "nth-check@npm:1.0.2"
   dependencies:
@@ -21852,6 +21943,15 @@ __metadata:
   version: 6.0.1
   resolution: "parse5@npm:6.0.1"
   checksum: 7d569a176c5460897f7c8f3377eff640d54132b9be51ae8a8fa4979af940830b2b0c296ce75e5bd8f4041520aadde13170dbdec44889975f906098ea0002f4bd
+  languageName: node
+  linkType: hard
+
+"parse5@npm:^3.0.1":
+  version: 3.0.3
+  resolution: "parse5@npm:3.0.3"
+  dependencies:
+    "@types/node": "*"
+  checksum: 6a82d59d60496f4a8bba99daee37eda728adb403197b9c9a163dcc02e369758992bcc67f1618d4f1445f4b12e7651e001c2847e446b8376d4d706e1d571f570d
   languageName: node
   linkType: hard
 
@@ -23143,7 +23243,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.6.0":
+"prettier@npm:^2.6.2":
   version: 2.6.2
   resolution: "prettier@npm:2.6.2"
   bin:
@@ -23729,7 +23829,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dev-utils@npm:^12.0.0":
+"react-dev-utils@npm:^12.0.1":
   version: 12.0.1
   resolution: "react-dev-utils@npm:12.0.1"
   dependencies:
@@ -23809,7 +23909,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^17.0.0":
+"react-dom@npm:^17.0.2":
   version: 17.0.2
   resolution: "react-dom@npm:17.0.2"
   dependencies:
@@ -23847,7 +23947,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-helmet@npm:^6.0.0":
+"react-helmet@npm:^6.1.0":
   version: 6.1.0
   resolution: "react-helmet@npm:6.1.0"
   dependencies:
@@ -24075,9 +24175,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-scripts@npm:5.0.0":
-  version: 5.0.0
-  resolution: "react-scripts@npm:5.0.0"
+"react-scripts@npm:5.0.1":
+  version: 5.0.1
+  resolution: "react-scripts@npm:5.0.1"
   dependencies:
     "@babel/core": ^7.16.0
     "@pmmmwh/react-refresh-webpack-plugin": ^0.5.3
@@ -24095,7 +24195,7 @@ __metadata:
     dotenv: ^10.0.0
     dotenv-expand: ^5.1.0
     eslint: ^8.3.0
-    eslint-config-react-app: ^7.0.0
+    eslint-config-react-app: ^7.0.1
     eslint-webpack-plugin: ^3.1.1
     file-loader: ^6.2.0
     fs-extra: ^10.0.0
@@ -24113,7 +24213,7 @@ __metadata:
     postcss-preset-env: ^7.0.1
     prompts: ^2.4.2
     react-app-polyfill: ^3.0.0
-    react-dev-utils: ^12.0.0
+    react-dev-utils: ^12.0.1
     react-refresh: ^0.11.0
     resolve: ^1.20.0
     resolve-url-loader: ^4.0.0
@@ -24138,7 +24238,7 @@ __metadata:
       optional: true
   bin:
     react-scripts: bin/react-scripts.js
-  checksum: 55ffad0d68ee6345326f5803c1925ae44b46cc33cb1cad9bcb68fd1784acfb3876bc12118b3079bc4d934834ae0197a9776baa0a06df0263831acc91ac42df29
+  checksum: 92afa2f245c7092ccc97d5609dc7a2130616262e34da7f15072d9442e2d2e1d4909a91022abd1faac1336eb17c5525a10d9bd43e1ae374c7ec941ca20addca68
   languageName: node
   linkType: hard
 
@@ -24332,7 +24432,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^17.0.0":
+"react@npm:^17.0.2":
   version: 17.0.2
   resolution: "react@npm:17.0.2"
   dependencies:
@@ -25413,7 +25513,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.43.2":
+"sass@npm:^1.51.0":
   version: 1.51.0
   resolution: "sass@npm:1.51.0"
   dependencies:
@@ -25852,7 +25952,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"slash@npm:^2.0.0":
+"slash@npm:2.0.0, slash@npm:^2.0.0":
   version: 2.0.0
   resolution: "slash@npm:2.0.0"
   checksum: 512d4350735375bd11647233cb0e2f93beca6f53441015eea241fe784d8068281c3987fbaa93e7ef1c38df68d9c60013045c92837423c69115297d6169aa85e6
@@ -28325,7 +28425,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unist-util-select@npm:^1.5.0":
+"unist-util-select@npm:1.5.0":
   version: 1.5.0
   resolution: "unist-util-select@npm:1.5.0"
   dependencies:

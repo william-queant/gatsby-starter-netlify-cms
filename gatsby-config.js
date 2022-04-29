@@ -37,21 +37,7 @@ module.exports = {
       }
     },
     `gatsby-plugin-image`,
-    {
-      resolve: "gatsby-plugin-sharp",
-      options: {
-        // Defaults used for gatsbyImageData and StaticImage
-        defaults: {},
-        // Set to false to allow builds to continue on image errors
-        failOnError: false,
-        // deprecated options and their defaults:
-        base64Width: 20,
-        forceBase64Format: `jpg`, // valid formats: png,jpg,webp
-        useMozJpeg: process.env.GATSBY_JPEG_ENCODER === `MOZJPEG`,
-        stripMetadata: true,
-        defaultQuality: 80
-      }
-    },
+    `gatsby-plugin-sharp`,
     "gatsby-transformer-sharp",
     {
       resolve: "gatsby-transformer-remark",

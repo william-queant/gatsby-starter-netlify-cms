@@ -42,14 +42,7 @@ module.exports = {
       options: {
         // Defaults used for gatsbyImageData and StaticImage
         defaults: {},
-        // Set to false to allow builds to continue on image errors
-        failOnError: false,
-        // deprecated options and their defaults:
-        base64Width: 20,
-        forceBase64Format: `jpg`, // valid formats: png,jpg,webp
-        useMozJpeg: process.env.GATSBY_JPEG_ENCODER === `MOZJPEG`,
-        stripMetadata: true,
-        defaultQuality: 50
+        failOnError: false
       }
     },
     "gatsby-transformer-sharp",
@@ -58,7 +51,7 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: "gatsby-remark-relative-images-v2",
+            resolve: "gatsby-remark-relative-images",
             options: {
               name: "uploads"
             }
